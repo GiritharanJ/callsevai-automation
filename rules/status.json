@@ -1,0 +1,24 @@
+{
+  "completed_keywords": [
+    "completed","done","finished","work done","job done","service done",
+    "complete","முடிந்தது","முடிச்சாச்சு","வேலை முடிந்தது"
+  ],
+  "commission_paid_keywords": [
+    "commission paid","paid","payment done","gpay done","upi sent","transferred",
+    "commission sent","100 paid","commission done","கமிஷன் paid"
+  ],
+  "commission_pending_keywords": [
+    "commission pending","not paid","will pay","pay later","pending commission"
+  ],
+  "amount_pattern": "(₹|rs\\.?|inr)?\\s*(\\d{3,6})\\s*(rupees|rs|/-)?",
+  "followup_keywords": [
+    "followup","follow up","call back","not reachable","no answer","try again",
+    "customer not available","revisit","revisiting","will check"
+  ],
+  "cancel_keywords": [
+    "cancel","cancelled","not needed","customer cancelled","no requirement","wrong number"
+  ],
+  "assign_keywords": [
+    "assigned","going","on the way","reached","visiting","will go","will visit","check panna pogiren"
+  ]
+}

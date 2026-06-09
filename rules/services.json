@@ -1,0 +1,22 @@
+{
+  "services": [
+    { "id": 1,  "name": "Electrician",           "keywords": ["electrician","electric","wiring","wire","light","fan","switch","socket","mcb","short circuit","power","current"] },
+    { "id": 2,  "name": "Plumber",                "keywords": ["plumber","plumbing","pipe","leak","tap","water","drainage","drain","toilet","flush","sewage","bore"] },
+    { "id": 3,  "name": "AC Repair",              "keywords": ["ac","air condition","aircon","cooling","cool","ac service","ac repair","ac clean","ac gas","split ac","window ac"] },
+    { "id": 11, "name": "Carpenter",              "keywords": ["carpenter","carpentry","wood","furniture","door","window frame","cupboard","wardrobe","table","chair repair"] },
+    { "id": 12, "name": "Painter",                "keywords": ["painter","painting","paint","wall paint","colour","color","whitewash","texture paint","enamel"] },
+    { "id": 16, "name": "House Cleaning",         "keywords": ["house clean","home clean","deep clean","cleaning","sweep","mop","bathroom clean","kitchen clean","sofa clean"] },
+    { "id": 22, "name": "Pest Control",           "keywords": ["pest","cockroach","rat","mosquito","termite","ant","bed bug","pest control","spray","fumigation"] },
+    { "id": 24, "name": "Septic Tank Cleaning",   "keywords": ["septic","septic tank","tank clean","sewage tank","manhole"] },
+    { "id": 26, "name": "Event Planner",          "keywords": ["event","event plan","event organise","party","birthday party","function","corporate event"] },
+    { "id": 27, "name": "Wedding Planner",        "keywords": ["wedding","wedding plan","marriage plan","kalyanam","reception","engagement"] },
+    { "id": 29, "name": "Stage Decoration",       "keywords": ["stage","stage decor","decoration stage","mandap","flower stage","led stage"] },
+    { "id": 30, "name": "Balloon Decoration",     "keywords": ["balloon","balloon decor","balloon arch","birthday balloon","party balloon"] },
+    { "id": 36, "name": "Mehndi Artist",          "keywords": ["mehndi","mehendi","henna","bridal mehndi"] },
+    { "id": 37, "name": "Catering Services",      "keywords": ["catering","caterer","food","meals","biryani","veg catering","non veg catering","food service","cook"] },
+    { "id": 40, "name": "Web Development",        "keywords": ["website","web","web develop","web design","wordpress","ecommerce","online store","landing page"] },
+    { "id": 41, "name": "Website Design",         "keywords": ["website design","ui design","graphic design","logo","branding","web ui"] },
+    { "id": 44, "name": "CCTV Installation",      "keywords": ["cctv","camera","security camera","ip camera","dvr","nvr","surveillance","cctv install"] },
+    { "id": 57, "name": "Interior Work",          "keywords": ["interior","interior design","false ceiling","pop","modular kitchen","interior work","home interior"] }
+  ]
+}

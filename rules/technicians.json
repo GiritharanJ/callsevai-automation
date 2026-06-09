@@ -1,0 +1,29 @@
+{
+  "_instructions": "Add your registered technicians here. 'services' must match service names from services.json. 'areas' must match city names from areas.json.",
+  "technicians": [
+    {
+      "id": "T001",
+      "name": "Ravi Kumar",
+      "phone": "919876543210",
+      "services": ["Electrician", "CCTV Installation"],
+      "areas": ["Chennai", "Velachery", "Adambakkam", "Tambaram"],
+      "active": true
+    },
+    {
+      "id": "T002",
+      "name": "Murugan S",
+      "phone": "919123456789",
+      "services": ["Plumber"],
+      "areas": ["Chennai", "Madurai", "Coimbatore"],
+      "active": true
+    },
+    {
+      "id": "T003",
+      "name": "Senthil AC",
+      "phone": "918765432100",
+      "services": ["AC Repair"],
+      "areas": ["Chennai", "Velachery", "Anna Nagar", "T Nagar", "Adyar"],
+      "active": true
+    }
+  ]
+}
