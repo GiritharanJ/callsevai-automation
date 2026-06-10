@@ -91,8 +91,15 @@ client.on('message', async (msg) => {
 async function handleCustomerMessage(sender, text, msg) {
   // Log raw message
   await sheets.logMessage(sender, text, 'CUSTOMER_RAW');
+const contact = await msg.getContact();
 
-  const lead = parseLead(sender, text);
+console.log(contact);
+const mobile = contact.id.user || sender;
+
+const lead = parseLead(
+  mobile,
+  text
+);
   console.log(`   [Parser] Type: ${lead.type} | Service: ${lead.service?.name} | Area: ${lead.area}`);
 
   if (lead.type === 'LEAD') {
@@ -108,13 +115,23 @@ async function handleCustomerMessage(sender, text, msg) {
     await sheets.addLead(lead, bestTech);
 
     // Reply to customer
-    const customerReply =
-      `✅ *நன்றி! CallSevai உங்கள் request பெற்றது.*\n\n` +
-      `🔧 Service: *${lead.service.name}*\n` +
-      `📍 Area: *${lead.area || 'Confirming...'}*\n` +
-      `🆔 Lead ID: *${lead.leadId}*\n\n` +
-      `👷 Expert confirm ஆவதற்கு *2-5 minutes* காத்திருங்கள்.\n` +
-      `📞 தொடர்புக்கு: *8778373517*`;
+const customerReply =
+`வணக்கம் 😊
+
+CallSevai-ஐ தொடர்பு கொண்டதற்கு நன்றி 🙏
+
+${lead.service.name} service-க்கு தயவு செய்து:
+
+📍 Exact Address / Location
+⏰ Available Time
+
+share செய்யவும்.
+
+உங்கள் location-க்கு அருகிலுள்ள service team-ஐ arrange செய்து தருகிறோம் 👍
+
+– CallSevai`;
+
+
 
     await msg.reply(customerReply);
 
@@ -285,3 +302,4 @@ process.on('SIGINT', async () => {
 
 console.log('🚀 Starting CallSevai WhatsApp Bot...');
 client.initialize();
+

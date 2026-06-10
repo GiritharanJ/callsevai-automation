@@ -1,5 +1,4 @@
 {
   "_instructions": "Add your registered technicians here. 'services' must match service names from services.json. 'areas' must match city names from areas.json.",
-  "technicians": []
-  
+  "technicians": [ y]
 }

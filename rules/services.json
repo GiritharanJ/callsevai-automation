@@ -1,22 +1,315 @@
 {
   "services": [
-    { "id": 1,  "name": "Electrician",           "keywords": ["electrician","electric","wiring","wire","light","fan","switch","socket","mcb","short circuit","power","current"] },
-    { "id": 2,  "name": "Plumber",                "keywords": ["plumber","plumbing","pipe","leak","tap","water","drainage","drain","toilet","flush","sewage","bore"] },
-    { "id": 3,  "name": "AC Repair",              "keywords": ["ac","air condition","aircon","cooling","cool","ac service","ac repair","ac clean","ac gas","split ac","window ac"] },
-    { "id": 11, "name": "Carpenter",              "keywords": ["carpenter","carpentry","wood","furniture","door","window frame","cupboard","wardrobe","table","chair repair"] },
-    { "id": 12, "name": "Painter",                "keywords": ["painter","painting","paint","wall paint","colour","color","whitewash","texture paint","enamel"] },
-    { "id": 16, "name": "House Cleaning",         "keywords": ["house clean","home clean","deep clean","cleaning","sweep","mop","bathroom clean","kitchen clean","sofa clean"] },
-    { "id": 22, "name": "Pest Control",           "keywords": ["pest","cockroach","rat","mosquito","termite","ant","bed bug","pest control","spray","fumigation"] },
-    { "id": 24, "name": "Septic Tank Cleaning",   "keywords": ["septic","septic tank","tank clean","sewage tank","manhole"] },
-    { "id": 26, "name": "Event Planner",          "keywords": ["event","event plan","event organise","party","birthday party","function","corporate event"] },
-    { "id": 27, "name": "Wedding Planner",        "keywords": ["wedding","wedding plan","marriage plan","kalyanam","reception","engagement"] },
-    { "id": 29, "name": "Stage Decoration",       "keywords": ["stage","stage decor","decoration stage","mandap","flower stage","led stage"] },
-    { "id": 30, "name": "Balloon Decoration",     "keywords": ["balloon","balloon decor","balloon arch","birthday balloon","party balloon"] },
-    { "id": 36, "name": "Mehndi Artist",          "keywords": ["mehndi","mehendi","henna","bridal mehndi"] },
-    { "id": 37, "name": "Catering Services",      "keywords": ["catering","caterer","food","meals","biryani","veg catering","non veg catering","food service","cook"] },
-    { "id": 40, "name": "Web Development",        "keywords": ["website","web","web develop","web design","wordpress","ecommerce","online store","landing page"] },
-    { "id": 41, "name": "Website Design",         "keywords": ["website design","ui design","graphic design","logo","branding","web ui"] },
-    { "id": 44, "name": "CCTV Installation",      "keywords": ["cctv","camera","security camera","ip camera","dvr","nvr","surveillance","cctv install"] },
-    { "id": 57, "name": "Interior Work",          "keywords": ["interior","interior design","false ceiling","pop","modular kitchen","interior work","home interior"] }
+    {
+      "id": 1,
+      "name": "Electrician",
+      "keywords": ["electrician","electric","wiring","wire","light","fan","switch","socket","mcb","short circuit","power","current","மின்சாரம்","எலக்ட்ரீஷியன்","வயரிங்"]
+    },
+    {
+      "id": 2,
+      "name": "Plumber",
+      "keywords": ["plumber","plumbing","pipe","leak","tap","water","drainage","drain","toilet","flush","sewage","bore","குழாய்","கசிவு","பம்ப்"]
+    },
+    {
+      "id": 3,
+      "name": "AC Repair",
+      "keywords": ["ac repair","ac service","ac not cooling","ac problem","ac fix","ac gas","ac clean","aircon repair","air conditioner repair","split ac repair","window ac repair","ஏசி ரிப்பேர்","ஏசி சர்வீஸ்"]
+    },
+    {
+      "id": 4,
+      "name": "AC Installation",
+      "keywords": ["ac install","ac installation","ac fitting","ac setup","new ac","split ac install","window ac install","ஏசி பிட்டிங்","ஏசி இன்ஸ்டால்"]
+    },
+    {
+      "id": 5,
+      "name": "Refrigerator Repair",
+      "keywords": ["fridge","refrigerator","fridge repair","fridge not cooling","freezer","cooling box","fridge problem","ஃப்ரிட்ஜ்","குளிர்சாதன பெட்டி","ஃப்ரிட்ஜ் ரிப்பேர்"]
+    },
+    {
+      "id": 6,
+      "name": "Washing Machine Repair",
+      "keywords": ["washing machine","washer","washing machine repair","washing machine not working","drum","spin","laundry machine","வாஷிங் மெஷின்","துவைக்கும் இயந்திரம்"]
+    },
+    {
+      "id": 7,
+      "name": "Water Purifier Service",
+      "keywords": ["water purifier","ro","ro service","ro repair","ro filter","water filter","purifier service","kent","aquaguard","zero b","நீர் சுத்திகரிப்பு","வாட்டர் பியூரிஃபையர்"]
+    },
+    {
+      "id": 8,
+      "name": "Geyser Repair",
+      "keywords": ["geyser","geyser repair","water heater","hot water","geyser not working","geyser leak","solar heater","கீசர்","வாட்டர் ஹீட்டர்","சூடான நீர்"]
+    },
+    {
+      "id": 9,
+      "name": "Chimney Repair",
+      "keywords": ["chimney","chimney repair","chimney service","kitchen chimney","chimney cleaning","chimney not working","சிம்னி","கிச்சன் சிம்னி","புகை போக்கி"]
+    },
+    {
+      "id": 10,
+      "name": "Microwave Repair",
+      "keywords": ["microwave","microwave repair","microwave oven","oven repair","microwave not working","oven service","மைக்ரோவேவ்","அவன் ரிப்பேர்"]
+    },
+    {
+      "id": 11,
+      "name": "Carpenter",
+      "keywords": ["carpenter","carpentry","wood","furniture","door","window frame","cupboard","wardrobe","table","chair repair","wood work","கார்பெண்டர்","மரவேலை","கதவு","அலமாரி"]
+    },
+    {
+      "id": 12,
+      "name": "Painter",
+      "keywords": ["painter","painting","paint","wall paint","colour","color","whitewash","texture paint","enamel","house paint","wall colour","வீடு பெயிண்ட்","சாயம்","பெயிண்டர்"]
+    },
+    {
+      "id": 13,
+      "name": "Furniture Repair",
+      "keywords": ["furniture repair","sofa repair","chair repair","table repair","bed repair","wood repair","furniture fix","broken furniture","ஃபர்னிச்சர் ரிப்பேர்","சோஃபா ரிப்பேர்"]
+    },
+    {
+      "id": 14,
+      "name": "Furniture Assembly",
+      "keywords": ["furniture assembly","furniture assemble","ikea","flat pack","bed assembly","wardrobe assembly","cupboard assembly","furniture setup","ஃபர்னிச்சர் அசெம்பிளி","ஃபர்னிச்சர் பிட்டிங்"]
+    },
+    {
+      "id": 15,
+      "name": "Home Renovation",
+      "keywords": ["renovation","home renovation","house renovation","remodel","makeover","home makeover","room renovation","வீடு நவீனமாக்கல்","ரெனோவேஷன்"]
+    },
+    {
+      "id": 16,
+      "name": "House Cleaning",
+      "keywords": ["house clean","home clean","cleaning","sweep","mop","house cleaning service","வீடு சுத்தம்","வீட்டு சுத்தம்","க்ளீனிங்"]
+    },
+    {
+      "id": 17,
+      "name": "Deep Cleaning",
+      "keywords": ["deep clean","deep cleaning","thorough cleaning","complete cleaning","move in clean","move out clean","டீப் க்ளீனிங்","முழு சுத்தம்"]
+    },
+    {
+      "id": 18,
+      "name": "Bathroom Cleaning",
+      "keywords": ["bathroom clean","toilet clean","bathroom cleaning service","toilet cleaning","washroom clean","bath clean","கழிவறை சுத்தம்","பாத்ரூம் க்ளீனிங்"]
+    },
+    {
+      "id": 19,
+      "name": "Kitchen Cleaning",
+      "keywords": ["kitchen clean","kitchen cleaning","kitchen scrub","stove clean","gas stove clean","kitchen deep clean","சமையலறை சுத்தம்","கிச்சன் க்ளீனிங்"]
+    },
+    {
+      "id": 20,
+      "name": "Sofa Cleaning",
+      "keywords": ["sofa clean","sofa cleaning","couch clean","sofa shampooing","fabric clean","upholstery clean","சோஃபா க்ளீனிங்","சோஃபா சுத்தம்"]
+    },
+    {
+      "id": 21,
+      "name": "Carpet Cleaning",
+      "keywords": ["carpet clean","carpet cleaning","rug clean","carpet shampooing","floor mat clean","கார்பெட் க்ளீனிங்","கார்பெட் சுத்தம்"]
+    },
+    {
+      "id": 22,
+      "name": "Pest Control Service",
+      "keywords": ["pest","cockroach","rat","mosquito","termite","ant","bed bug","pest control","spray","fumigation","insects","பூச்சி","கரப்பான்","எலி","கொசு","கரையான்"]
+    },
+    {
+      "id": 23,
+      "name": "Water Tank Cleaning",
+      "keywords": ["water tank","tank cleaning","sump clean","overhead tank","tank wash","water sump","தண்ணீர் தொட்டி சுத்தம்","டேங்க் க்ளீனிங்","சம்ப் க்ளீன்"]
+    },
+    {
+      "id": 24,
+      "name": "Septic Tank Cleaning",
+      "keywords": ["septic","septic tank","sewage tank","manhole","septic clean","கழிவு தொட்டி","செப்டிக் டேங்க்"]
+    },
+    {
+      "id": 25,
+      "name": "Drain Cleaning",
+      "keywords": ["drain","drain clean","drain blocked","clogged drain","pipe clean","drainage clean","drain unblock","வடிகால் சுத்தம்","டிரெயின் க்ளீன்","அடைப்பு"]
+    },
+    {
+      "id": 26,
+      "name": "Event Planner",
+      "keywords": ["event","event plan","event organise","party","birthday party","function","corporate event","event management","நிகழ்வு திட்டமிடல்","ஈவென்ட் ப்ளானர்"]
+    },
+    {
+      "id": 27,
+      "name": "Wedding Planner",
+      "keywords": ["wedding","wedding plan","marriage plan","kalyanam","reception","engagement","wedding management","திருமண திட்டமிடல்","கல்யாண ஆர்கனைஸர்"]
+    },
+    {
+      "id": 28,
+      "name": "Birthday Party Organizer",
+      "keywords": ["birthday","birthday party","birthday event","birthday organise","birthday decoration","happy birthday","பிறந்தநாள்","பர்த்டே பார்ட்டி","பிறந்த நாள் விழா"]
+    },
+    {
+      "id": 29,
+      "name": "Stage Decoration",
+      "keywords": ["stage","stage decor","decoration stage","mandap","flower stage","led stage","wedding stage","event stage","ஸ்டேஜ் டெகோரேஷன்","மேடை அலங்காரம்"]
+    },
+    {
+      "id": 30,
+      "name": "Balloon Decoration",
+      "keywords": ["balloon","balloon decor","balloon arch","birthday balloon","party balloon","balloon setup","பலூன் டெகோரேஷன்","பலூன் அலங்காரம்"]
+    },
+    {
+      "id": 31,
+      "name": "Flower Decoration",
+      "keywords": ["flower","flower decor","flower decoration","floral","garland","fresh flower","artificial flower","மலர் அலங்காரம்","பூ அலங்காரம்","பூக்கள்"]
+    },
+    {
+      "id": 32,
+      "name": "DJ Service",
+      "keywords": ["dj","dj service","disc jockey","sound system","music system","dj setup","wedding dj","event dj","டிஜே","டிஜே சர்வீஸ்","சவுண்ட் சிஸ்டம்"]
+    },
+    {
+      "id": 33,
+      "name": "Photographer",
+      "keywords": ["photographer","photography","photo","candid","wedding photo","event photo","portrait","photo shoot","புகைப்படக் கலைஞர்","போட்டோகிராஃபர்","புகைப்படம்"]
+    },
+    {
+      "id": 34,
+      "name": "Videographer",
+      "keywords": ["videographer","video","videography","video shoot","video record","wedding video","event video","cinematic","வீடியோகிராஃபர்","வீடியோ","வீடியோ எடுக்க"]
+    },
+    {
+      "id": 35,
+      "name": "Makeup Artist",
+      "keywords": ["makeup","makeup artist","bridal makeup","beauty","makeover","hair makeup","party makeup","மேக்கப் ஆர்டிஸ்ட்","மேக்கப்","அழகு"]
+    },
+    {
+      "id": 36,
+      "name": "Mehndi Artist",
+      "keywords": ["mehndi","mehendi","henna","bridal mehndi","mehndi design","கை மருதாணி","மெஹந்தி","மருதாணி"]
+    },
+    {
+      "id": 37,
+      "name": "Catering Services",
+      "keywords": ["catering","caterer","food","meals","biryani","veg catering","non veg catering","food service","cook","food supply","கேட்டரிங்","உணவு","சமையல்"]
+    },
+    {
+      "id": 38,
+      "name": "Bulk Food Ordering",
+      "keywords": ["bulk food","bulk order","food order bulk","mass food","food for function","food for party","large quantity food","மொத்த உணவு","பல்க் ஃபுட்"]
+    },
+    {
+      "id": 39,
+      "name": "Funeral Ceremony Arrangements",
+      "keywords": ["funeral","funeral arrangements","last rites","cremation","burial","condolence","funeral service","இறுதி சடங்கு","இறப்பு சடங்கு","பிரேத சடங்கு"]
+    },
+    {
+      "id": 40,
+      "name": "Web Development",
+      "keywords": ["web develop","website develop","wordpress","ecommerce","online store","landing page","web app","backend","frontend","வெப் டெவலப்மென்ட்","இணையதளம்"]
+    },
+    {
+      "id": 41,
+      "name": "Website Design",
+      "keywords": ["website design","website","web design","ui design","website ui","graphic design","logo","branding","web ui","வெப்சைட் டிசைன்","வெப்சைட்"]
+    },
+    {
+      "id": 42,
+      "name": "Mobile App Development",
+      "keywords": ["mobile app","app development","android app","ios app","flutter","react native","app design","மொபைல் ஆப்","ஆப் டெவலப்மென்ட்"]
+    },
+    {
+      "id": 43,
+      "name": "Custom Software Development",
+      "keywords": ["software","software development","custom software","erp","crm","billing software","inventory software","சாஃப்ட்வேர்","சாஃப்ட்வேர் டெவலப்மென்ட்"]
+    },
+    {
+      "id": 44,
+      "name": "CCTV Installation",
+      "keywords": ["cctv","camera","security camera","ip camera","dvr","nvr","surveillance","cctv install","cctv setup","சிசிடிவி","கேமரா பொருத்துதல்","செக்யூரிட்டி கேமரா"]
+    },
+    {
+      "id": 45,
+      "name": "Laptop Repair",
+      "keywords": ["laptop","laptop repair","laptop service","laptop not working","laptop screen","laptop keyboard","laptop battery","லேப்டாப்","லேப்டாப் ரிப்பேர்"]
+    },
+    {
+      "id": 46,
+      "name": "Desktop Repair",
+      "keywords": ["desktop","desktop repair","computer repair","pc repair","computer service","desktop not working","டெஸ்க்டாப்","கம்ப்யூட்டர் ரிப்பேர்","பிசி ரிப்பேர்"]
+    },
+    {
+      "id": 47,
+      "name": "Printer Repair",
+      "keywords": ["printer","printer repair","printer service","printer not working","inkjet","laser printer","print problem","ப்ரிண்டர்","ப்ரிண்டர் ரிப்பேர்"]
+    },
+    {
+      "id": 48,
+      "name": "WiFi Setup & Networking",
+      "keywords": ["wifi","wifi setup","router","networking","internet setup","broadband","wifi install","network cable","வைஃபை","இன்டர்நெட் செட்அப்","ராவுட்டர்"]
+    },
+    {
+      "id": 49,
+      "name": "IT Support & Maintenance",
+      "keywords": ["it support","it maintenance","computer maintenance","server","antivirus","data recovery","tech support","ஐடி சப்போர்ட்","தொழில்நுட்ப உதவி"]
+    },
+    {
+      "id": 50,
+      "name": "Car Rental",
+      "keywords": ["car rental","car hire","rent car","cab","taxi","car for rent","self drive","கார் வாடகை","கார் ரெண்டல்","டாக்சி"]
+    },
+    {
+      "id": 51,
+      "name": "Bus Rental",
+      "keywords": ["bus rental","bus hire","bus booking","minibus","charter bus","bus for function","bus for trip","பஸ் வாடகை","பஸ் ரெண்டல்"]
+    },
+    {
+      "id": 52,
+      "name": "Tempo Traveller Rental",
+      "keywords": ["tempo traveller","tempo","traveller van","12 seater","15 seater","van rental","group travel","டெம்போ டிராவலர்","வேன் வாடகை"]
+    },
+    {
+      "id": 53,
+      "name": "Driver Service",
+      "keywords": ["driver","driver service","hire driver","cab driver","personal driver","outstation driver","ஓட்டுனர்","டிரைவர் சர்வீஸ்","டிரைவர்"]
+    },
+    {
+      "id": 54,
+      "name": "Tour Package Service",
+      "keywords": ["tour","tour package","travel package","holiday","trip","ooty tour","kodai tour","family trip","சுற்றுலா","டூர் பேக்கேஜ்","ட்ரிப்"]
+    },
+    {
+      "id": 55,
+      "name": "Airport Pickup & Drop",
+      "keywords": ["airport","airport pickup","airport drop","airport taxi","airport transfer","airport cab","விமான நிலைய வண்டி","ஏர்போர்ட் பிக்கப்"]
+    },
+    {
+      "id": 56,
+      "name": "Building Construction",
+      "keywords": ["construction","building construction","house construction","build house","new building","commercial construction","கட்டுமான வேலை","வீடு கட்டுதல்","கட்டிடம்"]
+    },
+    {
+      "id": 57,
+      "name": "Interior Work",
+      "keywords": ["interior","interior design","false ceiling","pop","modular kitchen","interior work","home interior","office interior","இன்டீரியர்","உள்அலங்காரம்","மாடுலர் கிச்சன்"]
+    },
+    {
+      "id": 58,
+      "name": "Civil Contractor",
+      "keywords": ["civil","civil contractor","civil work","masonry","brick work","concrete","plastering","கட்டுமான ஒப்பந்தக்காரர்","சிவில் வேலை","மேசன்"]
+    },
+    {
+      "id": 59,
+      "name": "Borewell Service",
+      "keywords": ["borewell","bore well","bore","borewell drilling","water bore","new borewell","borewell pump","போர்வெல்","கிணறு","போர்வெல் டிரில்லிங்"]
+    },
+    {
+      "id": 60,
+      "name": "Tile Installation",
+      "keywords": ["tile","tiles","tile work","tile fitting","floor tile","wall tile","bathroom tile","tile laying","டைல்","டைல் வேலை","டைல் பிட்டிங்"]
+    },
+    {
+      "id": 61,
+      "name": "Waterproofing Service",
+      "keywords": ["waterproof","waterproofing","roof leak","wall leak","terrace waterproof","basement waterproof","water seepage","வாட்டர்ப்ரூஃபிங்","கூரை கசிவு","சுவர் கசிவு"]
+    },
+    {
+      "id": 62,
+      "name": "False Ceiling Installation",
+      "keywords": ["false ceiling","pop ceiling","gypsum ceiling","ceiling design","ceiling work","ceiling install","ஃபால்ஸ் சீலிங்","பாப் சீலிங்","சீலிங் வேலை"]
+    }
   ]
 }
+
